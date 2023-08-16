@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pusdo elements</title>
+</head>
+<style>
+    a:visited{
+        color: red;
+        background-color: blue;
+        padding:15px;
+         }
+      a:hover{
+        color: brown;
+        background-color: blue;
+        padding:15px;
+        font-size:50px;
+         }
+         p:last-child{
+        color: brown;
+        background-color: blue;
+        padding:15px;
+         }
+         p::before{
+            content:"hello world"
+         }
+</style>
+<body>
+    <a href="https://music.youtube.com/">youtube</a>
+    <a href="https://abc.com/">abc</a>
+    <div>
+        <div>
+            <p>this is div</p>
+        <p>this is div</p>
+        <p>this is div</p>
+        </div>
+        <p>this is div</p>
+        <p>this is div</p>
+        <p>this is div</p>
+    </div>
+</body>
+</html>
